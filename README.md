@@ -16,4 +16,4 @@ Two primary steps for EMG are:
     * For farm tasks, [emg.farm.R](https://github.com/ornwipa/exoskeleton/blob/master/emg.farm.R), Shapiro-Wilk tests proves normality, and ANOVA was conducted with exoskeleton presence as fixed effect and participants and tasks are random effects.
   * For visualization, bar charts and scatter plots were made with the following codes:
     * [data_summary.R](https://github.com/ornwipa/exoskeleton/blob/master/data_summary.R) is borrowed from external source to help create graphs
-    * [emg_visualize_manuscript](https://github.com/ornwipa/exoskeleton/blob/master/emg_visualize_manuscript.R) is applied to make graphs for publication
+    * [emg_visualize_manuscript.R](https://github.com/ornwipa/exoskeleton/blob/master/emg_visualize_manuscript.R) is applied to make graphs for publication
