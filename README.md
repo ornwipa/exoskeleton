@@ -11,9 +11,9 @@ Two primary steps for EMG are:
   * For visualization, [emg.presentation.R](https://github.com/ornwipa/exoskeleton/blob/master/emg.presentation.R) creates plots for individual task-participant combinations
   
 **2. Statistical analysis for all participants**
-  * Statistical analysis was conducted for laboratory-based simulated tasks and actual farm tasks separately
-    * For simulated tasks, [emg.sim.R](https://github.com/ornwipa/exoskeleton/blob/master/emg.sim.R), Wilcoxon signed-rank tests were used
-    * For farm tasks, [emg.farm.R](https://github.com/ornwipa/exoskeleton/blob/master/emg.farm.R), Shapiro-Wilk tests proves normality, and ANOVA was conducted with exoskeleton presence as fixed effect and participants and tasks are random effects.
+  * Statistical analysis was conducted for laboratory-based simulated tasks and actual farm tasks separately.
+    * For simulated tasks, [emg.sim.R](https://github.com/ornwipa/exoskeleton/blob/master/emg.sim.R), Wilcoxon signed-rank tests were used.
+    * For farm tasks, [emg.farm.R](https://github.com/ornwipa/exoskeleton/blob/master/emg.farm.R), Shapiro-Wilk tests proves normality on log-transformed EMG measures, and linear regression was conducted with exoskeleton presence as predictor while age, sex, BMI and participant ID as counfounding factors.
   * For visualization, bar charts and scatter plots were made with the following codes:
-    * [data_summary.R](https://github.com/ornwipa/exoskeleton/blob/master/data_summary.R) is borrowed from external source to help create graphs
-    * [emg_visualize_manuscript.R](https://github.com/ornwipa/exoskeleton/blob/master/emg_visualize_manuscript.R) is applied to make graphs for publication
+    * [data_summary.R](https://github.com/ornwipa/exoskeleton/blob/master/data_summary.R) was borrowed from external source to help create graphs.
+    * [emg_visualize_manuscript.R](https://github.com/ornwipa/exoskeleton/blob/master/emg_visualize_manuscript.R) was applied to make graphs for publication.
