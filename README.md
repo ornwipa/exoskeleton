@@ -1,5 +1,5 @@
 # Exoskeleton
-R functions used for exoskeleton on farms project
+R functions used for data analysis for the article "Potential exoskeleton uses for reducing low back muscular activity during farm tasks" published in American Journal of Industrial Medicine, [DOI: 10.1002/ajim.23180](https://onlinelibrary.wiley.com/doi/full/10.1002/ajim.23180)
 
 Two primary steps for EMG are:
 
